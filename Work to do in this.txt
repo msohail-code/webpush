@@ -1,0 +1,15 @@
+Public Area:-
+Home-page:
+Show to create dare and send it to your friends.
+Create Dare page:
+Say to enter "your name". After that say to select 7 questions(popup). After creating it say to share it with your friends(via Social Media).
+Accept-dare page:
+User accept dare and answer each question one by one. In the end, he the result with the answers he gave. And there will be option to take screenshot for user. After the result, there will be the option to "create dare"(take user to create dare page).
+
+Admin Area:-
+Dashboard with statistics.
+Question-page you can add questions from there
+Site sitting page: Here you can change title, favicon, description and even picture for social media.
+Ads-setup: From here you can add "adsense code" to display ads.
+Created dares page
+Accepted dares page

@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+.container{
+    width: 100%;
+}
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+}
+.stats{
+    margin: 80px 0px;
+}
+body{
+    background: #eee;
+    font-family: sans-serif;
+    height: 600px;
+}
+header{
+    background: #ccc5c5;
+    
+}
+header .logo{
+    float: left;
+        margin-right:20px;
+    line-height: 50px;
+}
+header .logo h1{
+    font-size: 18px;
+    color:#fff;
+    
+}
+header .logo h1 span{
+    color:#000;
+}
+.clear{
+    clear: both;
+}
+header .navbar .navbar-left{
+    float: left;
+}
+header .navbar .navbar-left ul{
+    list-style: none;
+    position: relative;
+}
+
+header .navbar .navbar-left ul li{
+    display: inline-block;
+   padding: 16px 10px;
+    cursor: pointer;
+        
+}
+header .navbar .navbar-left  ul li a{
+   
+    text-decoration: none;
+}
+header .navbar .navbar-left  ul li:hover{
+    background: #efe;
+    
+}
+header .navbar .navbar-right{
+    float: right;
+}
+.navbar-left li .fa{
+   
+}
+header .navbar .navbar-right button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+header .navbar .navbar-left ul li ul {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    display: none;
+}
+header .navbar .navbar-left ul li ul li{
+    background: #efe;
+    width: 120px;
+    text-transform:capitalize;
+    border-bottom: 1px solid #eee;
+}
+.button-blue{
+    background: #64b3fc;
+    color:#fff;
+}
+header .navbar .navbar-left ul li ul li:hover{
+    background: #eee;
+    
+}
+.menu-icon{
+    display: none;
+}
+.main-stat{
+    
+    
+}
+.brief-stats{
+    border:1px solid #fff;
+    width:30%;
+    background: #fff;
+   display: inline-block;
+    margin:20px 10px;
+    
+   
+}
+.content-padding   {
+     padding: 20px;
+}
+.stat-icon{
+    float: left;
+    
+}
+.stat-icon i{
+    font-size: 50px;
+    
+    background: #fc910a;
+    margin-top: -40px;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    text-align: center
+}
+.stat-right{
+    text-align: right;
+}
+.view-all{
+    border-top:1px solid #ccc;
+   
+    display: block;
+    padding:10px 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 800px){
+    .brief-stats{
+        width: 45%;
+        
+    }
+}
+
+#questions {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#questions td, #questions th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#questions tr:nth-child(even){background-color: #f2f2f2;}
+
+#questions tr:hover {background-color: #ddd;}
+
+#questions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#add-btn{
+	margin:10px 0;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#add-btn:hover{
+    background: green;
+}
+.question-image{
+    width:50px;
+    height: 50px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update {
+  width: 100%;
+  background-color: #3b54ec;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update:hover {
+  background-color: #5b25d3;
+}
+
+#site-settings {
+  border-radius: 5px;
+  width: 60%;
+  padding: 20px;
+    float: left;
+}
+.desciption {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  font-size: 16px;
+  resize:none;
+  }
+.setting-preview{
+    float:right;
+    width: 30%;
+}
+.setting-preview #setting-preview{
+    width: 100%;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    header .logo{
+        float: none;
+        padding: 0 10px;
+        
+    }
+    header .logo h1{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+    color:#fff;
+    float: right;
+    margin-top: -35px;
+    line-height: 30px;
+    border:1px solid #000;
+    border-radius: 3px;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .menu-icon:hover{
+        background: #000;
+    }
+    header{
+        
+    }
+    .navbar{
+        float:none;
+        display: none;
+        background: #fff;
+        padding: 10px 10px;
+    }
+    header .navbar .navbar-left{
+        float:none;
+    }  
+    header .navbar .navbar-right{
+        float:none;
+    }
+    header .navbar .navbar-left ul{
+        position:static!important;
+    }
+    header .navbar .navbar-left ul li{
+        display: block;
+        
+    }
+    header .navbar .navbar-left ul li ul{
+        display: block!important;
+        position:static!important;
+        margin-left: 10px;
+    }
+    header .navbar .navbar-left ul li ul li{
+        background: #fff;
+        width: 100%;
+        border-bottom: none;
+        
+        
+    }
+    .brief-stats{
+        width: 96%;
+        
+    }
+    #site-settings{
+        width: 90%;
+        float: none;
+    }
+    .setting-preview{
+    float:none;
+        text-align: center;
+    }
+    .setting-preview img{
+        width: 80%;
+    }
+    
+}

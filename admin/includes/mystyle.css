@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding: 0;
+   
+}
+body{
+   font-family: 'Titillium Web', sans-serif;
+    height: 600px;
+    background:#fff;
+}
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+}
+header{
+    
+    background:#fff;
+    border-bottom:1px solid #cee;
+}
+header .logo{
+    float: left;
+        margin-right:20px;
+    line-height: 40px;
+}
+header .logo h1{
+    font-size: 18px;
+    color:#f00;
+    
+}
+header .logo h1 span{
+    color:#000;
+}
+.clear{
+    clear: both;
+}
+header .navbar .navbar-right{
+    float: left;
+}
+header .navbar .navbar-right ul{
+    list-style: none;
+    position: relative;
+}
+
+header .navbar .navbar-right ul li{
+    display: inline-block;
+  padding:12px;
+    cursor: pointer;
+        
+}
+header .navbar .navbar-right  ul li a{
+   display:block;
+    text-decoration: none;
+}
+header .navbar .navbar-right  ul li:hover{
+    background: #efe;
+    
+}
+header .navbar .navbar-right{
+    float: right;
+}
+.navbar-right li .fa{
+   
+}
+header .navbar .navbar-right button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+header .navbar .navbar-right ul li ul {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -70px;
+    display: none;
+}
+header .navbar .navbar-right ul li ul li{
+    background: #efe;
+    width: 120px;
+    text-transform:capitalize;
+    border-bottom: 1px solid #eee;
+}
+.button-blue{
+    background: #64b3fc;
+    color:#fff;
+}
+header .navbar .navbar-right ul li ul li:hover{
+    background: #eee;
+    
+}
+.menu-icon{
+    display: none;
+    color:#fff;
+}
+.center{
+    text-align: center!important;
+    margin: 20px;
+    
+}
+
+.half {
+    
+    max-width: 599px;
+    margin: auto;
+    margin-top:80px;
+    color: #000;
+}
+
+.half h4{
+    margin: 5px;
+}
+.create-dare-txt{
+    color:#8c5bde;
+}
+.half img{
+    width: 30%;
+    margin: 20px 0 50px 0;
+}
+.create-dare-btn{
+    text-decoration: none;
+    color:#ffffff;
+    background:#7b389d;
+    width: 99%;
+    margin: auto;
+    font-weight: 800;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    animation: shadow-pulse 1s infinite;
+}
+@keyframes shadow-pulse
+{
+     0% {
+          width: 100%;
+     }
+     100% {
+          width: 99%;
+         height: 55px;
+         line-height:  55px;
+     }
+}
+footer{
+    margin: 50px;
+}
+.about-info{
+    font-size:25px;
+    margin: 10px 30px;
+    font-weight: 300;
+    
+}
+.show-box{
+   
+    background: #7b389d;
+    color:#000;
+    margin: 10px 0 ;
+    padding: 10px;
+    color:#fff;
+    border-radius: 10px;
+}
+.friend{
+    color:#7b389d;
+}
+.show-box img{
+    float:left;
+    width:60px;
+    border-radius: 100%;
+    margin: 0;
+    
+    
+}
+.question-and-answer{
+    
+    text-align: left;
+    margin-left: 65px;
+    margin-top: 10px;
+    
+}
+.show-box h5{
+    font-size: 18px;
+}
+
+.main-btn{
+    height: 100px;
+}
+.answer{
+    color:#e83030;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.nick-name{
+    color:#7b389d;
+}
+.enter-nick-name{
+    margin-top:20px;
+    width: 97.5%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 5px;
+}
+.question-box{
+    background:#ff0000;
+    color:#fff;
+    padding: 20px 0;
+}
+.question-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border-radius: 100%;
+    margin: 0px;
+}
+.select-question{
+    height:50px;
+    border-radius: 50px;
+    border:none;
+    width: 30%;
+   
+    color:#fff;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+}
+#check{
+    background: #4d3bdb;
+}
+#uncheck{
+    background: #0fd881;
+}
+#mycheck{
+    visibility:hidden;
+}
+.question-no{
+    background:#64b3fc;
+    color:#fff;
+    padding:5px;
+    border-radius: 5px;
+    margin:  20px 0;
+}
+
+.next-question{
+    width:100%;
+    padding:20px;
+    font-size:20px;
+    color:#ffffff;
+    font-weight:800;
+    border:none;
+    background:#540f12;
+    cursor:pointer;
+    margin-top:-30px;
+    border-radius:0px 0px 10px 10px;
+    display: none;
+}
+.answer-box{
+    background:#f00;
+    margin-top:100px;
+    border-radius: 15px;
+    color:#fff;
+}
+.answer-box img{
+    width:100px;
+    border:5px solid #fff;
+    border-radius:100%;
+    margin-bottom:20px;
+    margin-top:-50px;
+}
+.give-answer{
+    width:95%;
+    margin:0px 0px 20px 0px;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:5px;
+    font-size:18px;
+}
+.share-box *{
+    margin:5px 0;
+}
+.share-box {
+    background: #0ea5e6;
+    color:#fff;
+    width: 500px;
+    margin: auto;
+    padding:10px;
+   
+}
+.share-box img{
+    width:100px;
+    height:100px;
+}
+.share-box .share-link{
+    color:#6ceac4;
+    
+}
+.share-box ul li{
+    list-style:none;
+}
+.share-box ul li a{
+    display:block;
+    text-decoration:none;
+    background:#6ceac4;
+    color:#fff;
+    font-size:20px;
+    line-height:50px;
+    margin: 10px;
+    width:50%;
+    margin:auto;
+
+
+}
+.share-box ul li a.fb{
+    background:#165294;
+}
+@media screen and (max-width: 600px){
+    header .logo{
+        float: none;
+        padding: 0 10px;
+        
+    }
+    header .logo h1{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+    color:#000;
+    float: right;
+    margin-top: -35px;
+    line-height: 30px;
+    border:1px solid #000;
+    border-radius: 3px;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .menu-icon:hover{
+        background: #f00;
+	color:#fff;
+    }
+    header{
+        
+    }
+    .navbar{
+        float:none;
+        display: none;
+        background: #fff;
+        padding: 10px 10px;
+    }
+    header .navbar .navbar-right{
+        float:none;
+    }  
+    header .navbar .navbar-right{
+        float:none;
+    }
+    header .navbar .navbar-right ul{
+        position:static!important;
+    }
+    header .navbar .navbar-right ul li{
+        display: block;
+        
+    }
+    header .navbar .navbar-right ul li ul{
+        display: block!important;
+        position:static!important;
+        margin-left: 10px;
+    }
+    header .navbar .navbar-right ul li ul li{
+        background: #fff;
+        width: 100%;
+        border-bottom: none;
+        
+        
+    }
+   .share-box{
+       max-width:300px;
+        margin:auto;
+   }
+    
+}
+.social-media-icon ul{
+    margin:5px auto;
+}
+.social-media-icon ul li {
+    display:inline-block;
+}
+.social-media-icon ul li a{
+    background:#7b389d;
+    color:#fff;
+    font-size:22px;
+    display:block;
+    line-height:40px;
+    width:40px;
+    margin-top:5px;
+    border-radius:5px;
+}
+.social-media-icon ul li a.facebook{
+    background:#4064ad;
+}
+.social-media-icon ul li a.Instagram{
+    background:#e40024;
+}
+.social-media-icon ul li a.twiiter{
+    background:#1c9cea;
+}
+.social-media-icon ul li a:hover{
+    background:#0fe68d;
+}
